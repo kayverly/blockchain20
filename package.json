@@ -1,0 +1,22 @@
+{
+  "name": "blockchain20",
+  "version": "1.0.0",
+  "description": "Blockchain work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayverly/blockchain20.git"
+  },
+  "author": "Kayla Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayverly/blockchain20/issues"
+  },
+  "homepage": "https://github.com/kayverly/blockchain20#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.5.0"
+  }
+}
