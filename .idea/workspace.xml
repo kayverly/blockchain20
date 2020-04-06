@@ -2,7 +2,336 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20cc7149-c8d3-47c1-b82b-b820145d0002" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/AddressImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/AllowanceCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/AllowanceCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Arrays.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ArraysImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/CappedCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/CappedCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/CapperRole.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/CapperRoleMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ConditionalEscrow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ConditionalEscrowMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Context.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ContextMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ContextMockCaller.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Counters.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/CountersImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Create2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Create2Impl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Crowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/CrowdsaleMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ECDSA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ECDSAMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC165.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC165Checker.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC165CheckerMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC165InterfacesSupported.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC165Mock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC165NotSupported.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC1820Implementer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC1820ImplementerMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20Burnable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20BurnableMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20Capped.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20Detailed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20DetailedMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20Metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20MetadataMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20Migrator.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20Mintable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20MintableMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20Mock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20NoReturnMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20Pausable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20PausableMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20ReturnFalseMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20ReturnTrueMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20Snapshot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC20SnapshotMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721Burnable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721Enumerable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721Full.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721FullMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721GSNRecipientMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721Holder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721Metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721MetadataMintable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721Mintable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721MintableBurnableImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721Mock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721Pausable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721PausableMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC721ReceiverMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC777Mock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ERC777SenderRecipientMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/EnumerableSet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/EnumerableSetMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Escrow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/EtherReceiverMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/FinalizableCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/FinalizableCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/GSNRecipient.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/GSNRecipientERC20Fee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/GSNRecipientERC20FeeMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/GSNRecipientMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/GSNRecipientSignature.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/GSNRecipientSignatureMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC165.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC1820Implementer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC1820Registry.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC721.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC721Enumerable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC721Full.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC721Metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC721Receiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC777Recipient.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IERC777Sender.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IRelayHub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IRelayRecipient.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IncreasingPriceCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IncreasingPriceCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IndividuallyCappedCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/IndividuallyCappedCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Math.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/MathMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/MerkleProof.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/MerkleProofWrapper.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/MintedCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/MintedCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/MinterRole.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/MinterRoleMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Ownable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/OwnableInterfaceId.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/OwnableMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Pausable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PausableCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PausableCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PausableMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PauserRole.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PauserRoleMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PaymentSplitter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PostDeliveryCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PostDeliveryCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PullPayment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/PullPaymentMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ReentrancyAttack.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ReentrancyGuard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/ReentrancyMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/RefundEscrow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/RefundableCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/RefundableCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/RefundablePostDeliveryCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/RefundablePostDeliveryCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Roles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/RolesMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SafeCast.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SafeCastMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SafeERC20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SafeERC20Wrapper.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SafeMath.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SafeMathMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SampleCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SampleCrowdsaleToken.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Secondary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SecondaryMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SignedSafeMath.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SignedSafeMathMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SignerRole.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SignerRoleMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SimpleToken.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/Strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/StringsMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/SupportsInterfaceWithLookupMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/TimedCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/TimedCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/TokenTimelock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/TokenVesting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/WhitelistAdminRole.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/WhitelistAdminRoleMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/WhitelistCrowdsale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/WhitelistCrowdsaleImpl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/WhitelistedRole.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/WhitelistedRoleMock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/__unstable__ERC20PrimaryAdmin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/build/contracts/__unstable__TokenVault.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/openzeppelin-solidity/test/behaviors/access/roles/PublicRole.behavior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blockchain" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/build/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/contracts/ExampleToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/contracts/ExampleToken.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/contracts/ExampleTokenCrowdsale.sol" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/contracts/ExampleTokenCrowdsale.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/@openzeppelin/contracts/crowdsale/Crowdsale.sol" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/node_modules/@openzeppelin/contracts/crowdsale/Crowdsale.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/@openzeppelin/contracts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/node_modules/@openzeppelin/contracts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/AddressUtils.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/AutoIncrementing.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/Bounty.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ECRecovery.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/LimitBalance.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/MerkleProof.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ReentrancyGuard.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/access/SignatureBouncer.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/access/Whitelist.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/access/rbac/RBAC.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/access/rbac/Roles.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/distribution/FinalizableCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/distribution/PostDeliveryCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/distribution/RefundableCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/emission/AllowanceCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/emission/MintedCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/price/IncreasingPriceCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/validation/CappedCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/validation/IndividuallyCappedCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/crowdsale/validation/WhitelistedCrowdsale.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/introspection/SupportsInterfaceWithLookup.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/lifecycle/Destructible.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/lifecycle/Pausable.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/lifecycle/TokenDestructible.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/math/Math.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/CanReclaimToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/Claimable.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/Contactable.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/DelayedClaimable.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/HasNoContracts.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/HasNoEther.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/HasNoTokens.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/Heritable.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/NoOwner.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/ownership/Superuser.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/payment/ConditionalEscrow.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/payment/Escrow.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/payment/PullPayment.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/payment/RefundEscrow.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/payment/SplitPayment.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/proposals/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/proposals/ERC1046/TokenMetadata.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/BasicToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/BurnableToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/CappedToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/DetailedERC20.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Basic.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/MintableToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/PausableToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/RBACMintableToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/SafeERC20.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/StandardBurnableToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/TokenTimelock.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC20/TokenVesting.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC721/DeprecatedERC721.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721Basic.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721BasicToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721Holder.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721Receiver.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721Token.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/AutoIncrementing.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/Bounty.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/Heritable.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/LimitBalance.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ReentrancyGuard.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/SimpleSavingsWallet.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/access/SignatureBouncer.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/AllowanceCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/CappedCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/Crowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/FinalizableCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/IncreasingPriceCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/IndividuallyCappedCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/MintedCrowdsale.behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/MintedCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/PostDeliveryCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/RefundableCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/TimedCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/crowdsale/WhitelistedCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/examples/SampleCrowdsale.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/examples/SimpleToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/EVMRevert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/EVMThrow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/advanceToBlock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/assertJump.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/assertRevert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/decodeLogs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/ether.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/expectEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/expectThrow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/increaseTime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/latestTime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/makeInterfaceId.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/merkleTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/sendTransaction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/sign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/transactionMined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/helpers/web3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/introspection/SupportsInterface.behavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/introspection/SupportsInterfaceWithLookup.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/library/ECRecovery.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/library/Math.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/library/MerkleProof.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/lifecycle/Destructible.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/lifecycle/Pausable.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/lifecycle/TokenDestructible.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/math/SafeMath.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/CanReclaimToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/Claimable.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/Contactable.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/DelayedClaimable.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/HasNoContracts.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/HasNoEther.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/HasNoTokens.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/Ownable.behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/Ownable.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/Superuser.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/Whitelist.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/ownership/rbac/RBAC.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/payment/ConditionalEscrow.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/payment/Escrow.behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/payment/Escrow.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/payment/PullPayment.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/payment/RefundEscrow.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/payment/SplitPayment.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/proposals/ERC1046/TokenMetadata.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/BasicToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/BurnableToken.behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/BurnableToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/CappedToken.behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/CappedToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/DetailedERC20.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/MintableToken.behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/MintableToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/PausableToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/RBACCappedToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/RBACMintableToken.behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/RBACMintableToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/SafeERC20.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/StandardBurnableToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/StandardToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/TokenTimelock.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC20/TokenVesting.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC721/ERC721BasicToken.behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC721/ERC721BasicToken.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC721/ERC721MintBurn.behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/node_modules/openzeppelin-solidity/test/token/ERC721/ERC721Token.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blockchain/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/truffle-config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,14 +342,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blockchain/contracts/Migrations.sol">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/blockchain/contracts/ExampleToken.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blockchain/contracts/ExampleTokenCrowdsale.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blockchain/migrations/2_deploy_contracts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -37,14 +396,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/blockchain/truffle-config.js" />
+        <option value="$PROJECT_DIR$/blockchain/node_modules/@openzeppelin/contracts/crowdsale/Crowdsale.sol" />
+        <option value="$PROJECT_DIR$/node_modules/openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol" />
+        <option value="$PROJECT_DIR$/blockchain/contracts/ExampleToken.sol" />
+        <option value="$PROJECT_DIR$/blockchain/contracts/ExampleTokenCrowdsale.sol" />
+        <option value="$PROJECT_DIR$/blockchain/migrations/2_deploy_contracts.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="309" />
-    <option name="y" value="25" />
-    <option name="width" value="964" />
-    <option name="height" value="707" />
+    <option name="x" value="613" />
+    <option name="y" value="23" />
+    <option name="width" value="667" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -52,8 +417,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,16 +435,56 @@
               <item name="blockchain" type="462c0819:PsiDirectoryNode" />
               <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blockchain20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain20" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain20" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain20" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="openzeppelin-solidity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain20" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="openzeppelin-solidity" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain20" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="openzeppelin-solidity" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdsale" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -98,6 +501,40 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="ExampleTokenCrowdsale._preValidatePurchase" type="SolidityConfigurationType" factoryName="Solidity" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="blockchain20" />
+      <option name="VMParameters" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
+      <option name="workingDirectory" value="" />
+      <option name="contractName" value="ExampleTokenCrowdsale" />
+      <option name="contractFile" value="$PROJECT_DIR$/blockchain/contracts/ExampleTokenCrowdsale.sol" />
+      <option name="functionName" value="_preValidatePurchase" />
+      <option name="vmParameters" />
+      <option name="programParameters" />
+      <option name="workingDirectory" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="ajreEnabled" value="false" />
+      <option name="ajre" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Solidity.ExampleTokenCrowdsale._preValidatePurchase" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,7 +545,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584121396680</updated>
-      <workItem from="1584121404689" duration="553000" />
+      <workItem from="1584121404689" duration="5301000" />
+      <workItem from="1585577909964" duration="263000" />
+      <workItem from="1585610572896" duration="2365000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README">
       <created>1584121518359</created>
@@ -128,24 +567,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="553000" />
+    <option name="totallyTimeSpent" value="7929000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="309" y="25" width="964" height="707" extended-state="0" />
+    <frame x="613" y="23" width="667" height="715" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="aws.explorer" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3284553" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.4989154" weight="0.3284553" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5010846" side_tool="true" weight="0.3284553" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="aws.explorer" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -153,15 +588,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989154" visible="true" weight="0.07704655" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010846" side_tool="true" weight="0.3284553" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3284553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,14 +634,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blockchain/contracts/ExampleToken.sol">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blockchain/contracts/ExampleTokenCrowdsale.sol">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/blockchain/contracts/Migrations.sol">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain/node_modules/@openzeppelin/contracts/crowdsale/Crowdsale.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-502">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain/node_modules/@openzeppelin/contracts/crowdsale/validation/CappedCrowdsale.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain/truffle-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/openzeppelin-solidity/contracts/crowdsale/Crowdsale.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain/contracts/ExampleTokenCrowdsale.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain/migrations/2_deploy_contracts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockchain/contracts/ExampleToken.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
